@@ -7,7 +7,7 @@ pipeline {
         stage("build") {
             steps {
                 echo 'building the application...'
-                sh "mvn -B verify"
+                //sh "mvn -B verify"
             }
         }
 
