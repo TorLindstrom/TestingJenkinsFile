@@ -27,7 +27,7 @@ pipeline {
         post {
             always {
             //archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
-            junit
+            //junit
             }
             success {
 
