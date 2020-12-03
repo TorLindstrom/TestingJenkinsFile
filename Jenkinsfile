@@ -24,22 +24,4 @@ pipeline {
             }
         }
     }
-        post {
-            always {
-            //archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
-            //junit
-            }
-            success {
-
-            }
-            failure {
-
-            }
-            unstable {
-
-            }
-            changed {
-
-            }
-        }
 }
